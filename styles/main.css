@@ -8,6 +8,14 @@
 .main-grid .main-grid-ind {
     height: 340px;
     position: relative;
+    cursor: pointer;
+    transition: all 0.1s;
+    border-radius: 10px;
+}
+
+.main-grid .main-grid-ind:hover,
+.special:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 .main-grid .main-grid-ind img,
@@ -16,6 +24,7 @@
     height: 340px;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px;
 }
 
 .main-grid .text,
@@ -52,6 +61,8 @@
     margin: 20px 0;
     height: 340px;
     position: relative;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .special .chefs-special {
