@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
     padding: 80px 60px;
+    background-color: rgb(245, 245, 245);
 }
 
 header {

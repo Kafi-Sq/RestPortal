@@ -5,6 +5,30 @@
     column-gap: 20px;
 }
 
+@media (max-width: 1000px) {
+    .main-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1399) {
+    .main-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1600px) {
+    .main-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .main-grid .main-grid-ind {
     height: 340px;
     position: relative;
